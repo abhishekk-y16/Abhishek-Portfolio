@@ -361,6 +361,75 @@ body {
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0, 217, 255, 0.1);
 }
+/* Projects Section */
+.projects {
+  padding: 60px 20px;
+  background: #0a0a0a;
+  color: #fff;
+  text-align: center;
+}
+
+.projects h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #00ffcc;
+}
+
+.projects p {
+  font-size: 1.1rem;
+  color: #cccccc;
+  margin-bottom: 40px;
+}
+
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  padding: 0 10px;
+}
+
+.project-card {
+  background: #1a1a1a;
+  border: 1px solid #2c2c2c;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 4px 20px rgba(0, 255, 204, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 30px rgba(0, 255, 204, 0.2);
+}
+
+.project-card h3 {
+  color: #00ffcc;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  color: #cccccc;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.project-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #00ffcc;
+  color: #0a0a0a;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.project-link:hover {
+  background: #00e6b8;
+  transform: scale(1.05);
+}
+
 
 
 .contact {
