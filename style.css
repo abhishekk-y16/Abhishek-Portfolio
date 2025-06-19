@@ -19,7 +19,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(-45deg, #1d1e22, #262b40, #383e5c, #1d1e22);
+  background: linear-gradient(-45deg, #1d1e22, #262b40, #a7a3b6, #121316);
   background-size: 400% 400%;
   animation: gradientFlow 12s ease infinite;
   text-align: center;
