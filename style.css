@@ -26,6 +26,12 @@ body {
   padding: 0 20px;
   color: white;
 }
+#typed-text{
+  font-weight: 200;
+  
+}
+
+
 
 @keyframes gradientFlow {
   0% { background-position: 0% 50%; }
@@ -101,12 +107,14 @@ body {
   border-radius: 15px; /* Rounded corners for a smoother look */
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
   transition: all 0.3s ease; /* Smooth transition for hover effect */
+  
 }
 
 /* Hover Effect */
 .about img:hover {
   transform: scale(1.05); /* Slight zoom effect on hover */
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
+  box-shadow: 0 12px 24px rgba(245, 241, 6, 0.2); /* More pronounced shadow */
+  border-color: rgb(19, 139, 219);
 }
 
 
@@ -162,13 +170,17 @@ body {
 }
 
 .skill p {
+  
   font-size: 1.1rem;
   margin: 0;
+  font-size: 17px;
+  font-weight:300;
+  
 }
 
 .skill:hover {
   transform: translateY(-10px);
-  background: #00ffff10;
+  background: #20b1b110;
   box-shadow: 0 0 25px rgba(0, 255, 255, 0.3);
   border-color: #00ffff;
 }
@@ -311,7 +323,7 @@ body {
 
 .projects p {
   font-size: 18px;
-  color: #ccc;
+  color: #cccccc;
   max-width: 700px;
   margin: 0 auto 40px auto;
   text-align: center;
