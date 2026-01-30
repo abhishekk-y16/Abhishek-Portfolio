@@ -34,7 +34,7 @@ const FrameSequenceHero = () => {
 
           for (let i = batchStart + 1; i <= batchEnd; i++) {
             const frameNum = String(i).padStart(3, '0');
-            const frameUrl = `/Abhishek-Portfolio/hero-sequence/ezgif-frame-${frameNum}.jpg`;
+            const frameUrl = `/hero-sequence/ezgif-frame-${frameNum}.jpg`;
 
             const promise = new Promise((resolve) => {
               const img = new Image();
