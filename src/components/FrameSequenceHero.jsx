@@ -36,6 +36,7 @@ const FrameSequenceHero = () => {
             const frameNum = String(i).padStart(3, '0');
             const frameUrl = `/hero-sequence/ezgif-frame-${frameNum}.jpg`;
 
+            
             const promise = new Promise((resolve) => {
               const img = new Image();
               img.loading = 'eager';
